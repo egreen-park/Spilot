@@ -560,7 +560,7 @@ DBC = {
   CAR.CEED: dbc_dict('hyundai_kia_generic', None),
   CAR.SELTOS: dbc_dict('hyundai_kia_generic', 'hyundai_kia_mando_front_radar_generated'),
   CAR.MOHAVE: dbc_dict('hyundai_kia_generic', None),
-  CAR.K7: dbc_dict('hyundai_kia_generic', None),
+  CAR.K7: dbc_dict('hyundai_kia_generic', 'hyundai_kia_mando_front_radar_generated'),
   CAR.K7_HEV: dbc_dict('hyundai_kia_generic', None),
   CAR.K9: dbc_dict('hyundai_kia_generic', None),
 }
