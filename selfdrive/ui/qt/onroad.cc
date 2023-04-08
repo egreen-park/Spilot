@@ -729,8 +729,8 @@ void NvgWindow::drawSpeed(QPainter &p) {
 
   QString speed;
   speed.sprintf("%.0f", cur_speed);
-  configFont(p, "Open Sans", 66, "Bold");
-  drawTextWithColor(p, rect().center().x(), 230 + 730, speed, color);  // 670
+  configFont(p, "Open Sans", 120, "Bold");
+  drawTextWithColor(p, rect().center().x() + 50, 230 + 730, speed, color);  // 670
 
   //configFont(p, "Open Sans", 66, "Regular");
   //drawText(p, rect().center().x(), 310, s->scene.is_metric ? "km/h" : "mph", 200);
