@@ -316,7 +316,8 @@ class CarInterface(CarInterfaceBase):
 
 
     #ret.radarTimeStep = 0.05 #### 0.02로 수정함 20231119
-    ret.radarTimeStep = (1.0 / 50)
+    #ret.radarTimeStep = (1.0 / 50)  #### 0.02로 수정함 20231119
+    ret.radarTimeStep = 0.03   #### 0.03로 수정함 20231125
 
     if ret.centerToFront == 0:
       ret.centerToFront = ret.wheelbase * 0.4
