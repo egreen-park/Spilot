@@ -8,7 +8,8 @@
 #include <QWidget>
 
 constexpr int spinner_fps = 30;
-constexpr QSize spinner_size = QSize(360, 360);
+//constexpr QSize spinner_size = QSize(360, 360); 스피너 삭제 24/07/20
+constexpr QSize spinner_BG_size = QSize(1920, 1080); // 스피너 배경이미지 추가 24/7/20
 
 class TrackWidget : public QWidget  {
   Q_OBJECT
